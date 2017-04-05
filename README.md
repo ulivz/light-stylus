@@ -17,7 +17,7 @@ import 'light-stylus/src/index.styl'
 
 ### layout
 
-方法|描述
+mixin|description
 ---|---
 `$clearfix()`|清除浮动
 `$clearfix-another()`|采用`overflow`清除浮动
@@ -32,7 +32,7 @@ import 'light-stylus/src/index.styl'
 
 ### effect
 
-方法|描述
+mixin|description
 ---|---
 `$rotate(angle)`|`2D`旋转
 `$translate(x, y)`|`2D`偏移
@@ -47,13 +47,13 @@ import 'light-stylus/src/index.styl'
 
 ### Border Radius
 
-css|描述
+css|default
 ---|---
 `.v-radius-base`|`border-radius 6px`
 `.v-radius-small`|`border-radius 6px`
 
 ### Box Shadow
-css|描述
+css|default
 ---|---
 `.v-shadow-base`|`box-shadow: 0 1px 6px rgba(0, 0, 0, .2)`
 `.v-shadow-card`|`box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)`
@@ -63,7 +63,7 @@ css|描述
 `.v-shadow-right`|`box-shadow: 1px 0 6px rgba(0, 0, 0, .2)`
 
 ### Color
-css|默认值
+css|default
 ---|---
 `.v-primary`| `#3399ff`
 `.v-info`| `#2db7f5`
@@ -77,24 +77,24 @@ css|默认值
 `.v-bg-erro`| `#ff3300`
 
 ## Transform
-css|默认值
+css|description
 ---|---
 `.v-rotate-reverse`| 旋转`180°`
 
 ## Box
-css|默认值
+css|description
 ---|---
 `.v-content-box`| 普通盒模型
 `.v-border-box`| 怪异盒模型
 
 ## Text Overflow
-css|默认值
+css|description
 ---|---
 `.v-text-ellipsis-1`| `1`行文字溢出显示省略号
 `.v-text-ellipsis-2`| `2`行文字溢出显示省略号
 
 ## @media
-css|默认值
+css|default
 ---|---
 `@media (min-width: $screen-xs)`|`480px`
 `@media (min-width: $screen-sm)`|`768px`
