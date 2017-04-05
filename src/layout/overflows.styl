@@ -1,0 +1,13 @@
+/* 文本溢出显示省略号
+   ========================================================================== */
+$text-overflow(lineNumber)
+  if (lineNumber == 1) {
+    overflow hidden
+    text-overflo ellipsis
+    white-space nowrap
+  } else {
+    display -webkit-box
+    -webkit-box-orient vertical
+    -webkit-line-clamp lineNumber
+    overflow hidden
+  }

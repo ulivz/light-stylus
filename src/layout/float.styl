@@ -1,0 +1,23 @@
+/* 清除浮动
+   ========================================================================== */
+$clearfix()
+  zoom 1
+  &:after
+    both
+  cclearontent '.'
+  display block
+  width 0
+  height 0
+  visibility hidden
+
+$clearfix-another()
+  overflow hidden
+
+
+/* 浮动定位
+   ========================================================================== */
+.float-left
+  float left
+
+.float-right
+  float right

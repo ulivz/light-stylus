@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "stylus -w test/test.styl -o test/test.css"
+  },
+  "dependencies": {
+    "polished": "^1.0.2"
+  }
+}

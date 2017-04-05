@@ -1,0 +1,16 @@
+/* 灰度
+   ========================================================================== */
+$gray-color($grey-level) {
+  color rgba(0, 0, 0, $grey-level)
+}
+
+$create-gray-color($grey-level) {
+  if ($grey-level <= 100) {
+    .gray-{$grey-level} {
+      color rgba(0,0,0,$grey-level/100)
+    }
+    $create-gray-color($grey-level + 5)
+  }
+}
+
+$create-gray-color(0)

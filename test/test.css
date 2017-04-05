@@ -1,0 +1,150 @@
+.gray-0 {
+  color: rgba(0,0,0,0);
+}
+.gray-5 {
+  color: rgba(0,0,0,0.05);
+}
+.gray-10 {
+  color: rgba(0,0,0,0.1);
+}
+.gray-15 {
+  color: rgba(0,0,0,0.15);
+}
+.gray-20 {
+  color: rgba(0,0,0,0.2);
+}
+.gray-25 {
+  color: rgba(0,0,0,0.25);
+}
+.gray-30 {
+  color: rgba(0,0,0,0.3);
+}
+.gray-35 {
+  color: rgba(0,0,0,0.35);
+}
+.gray-40 {
+  color: rgba(0,0,0,0.4);
+}
+.gray-45 {
+  color: rgba(0,0,0,0.45);
+}
+.gray-50 {
+  color: rgba(0,0,0,0.5);
+}
+.gray-55 {
+  color: rgba(0,0,0,0.55);
+}
+.gray-60 {
+  color: rgba(0,0,0,0.6);
+}
+.gray-65 {
+  color: rgba(0,0,0,0.65);
+}
+.gray-70 {
+  color: rgba(0,0,0,0.7);
+}
+.gray-75 {
+  color: rgba(0,0,0,0.75);
+}
+.gray-80 {
+  color: rgba(0,0,0,0.8);
+}
+.gray-85 {
+  color: rgba(0,0,0,0.85);
+}
+.gray-90 {
+  color: rgba(0,0,0,0.9);
+}
+.gray-95 {
+  color: rgba(0,0,0,0.95);
+}
+.gray-100 {
+  color: #000;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.content-box {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box /* Firefox */;
+  -webkit-box-sizing: content-box /* Safari */;
+}
+.border-box {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box /* Firefox */;
+  -webkit-box-sizing: border-box /* Safari */;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+.pos-fixed {
+  position: fixed;
+}
+.clearfix {
+  zoom: 1;
+  cclearontent: '.';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix-another {
+  overflow: hidden;
+}
+.absolute-center {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.rotate-90 {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg) /* IE 9 */;
+  -moz-transform: rotate(90deg) /* Firefox */;
+  -webkit-transform: rotate(90deg) /* Safari 和 Chrome */;
+  -o-transform: rotate(90deg) /* Opera */;
+}
+.text-overflow-line-1 {
+  overflow: hidden;
+  text-overflo: ellipsis;
+  white-space: nowrap;
+}
+.text-overflow-line-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.single-line-center {
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+}
+.multi-line-text {
+  font-size: 20px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-fixed-child {
+  flex: 0 0 80 px;
+  width: 80px;
+}
