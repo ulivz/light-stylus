@@ -79,7 +79,7 @@ css|默认值
 ## Transform
 css|默认值
 ---|---
-`.v-rotate-reverse`| 旋转180°
+`.v-rotate-reverse`| 旋转`180°`
 
 ## Box
 css|默认值
@@ -90,16 +90,16 @@ css|默认值
 ## Text Overflow
 css|默认值
 ---|---
-`.v-text-ellipsis-1`| 1行文字溢出显示省略号
-`.v-text-ellipsis-2`| 2行文字溢出显示省略号
+`.v-text-ellipsis-1`| `1`行文字溢出显示省略号
+`.v-text-ellipsis-2`| `2`行文字溢出显示省略号
 
 ## @media
 css|默认值
 ---|---
-`@media (min-width: $screen-xs)`|480px
-`@media (min-width: $screen-sm)`|768px
-`@media (min-width: $screen-md)`|992px
-`@media (min-width: $screen-lg)`|1200px
+`@media (min-width: $screen-xs)`|`480px`
+`@media (min-width: $screen-sm)`|`768px`
+`@media (min-width: $screen-md)`|`992px`
+`@media (min-width: $screen-lg)`|`1200px`
 
 
 ## 自定义
