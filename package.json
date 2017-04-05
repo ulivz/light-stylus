@@ -2,7 +2,22 @@
   "scripts": {
     "build": "stylus -w src/generate-css.styl -o lib/light.css"
   },
-  "dependencies": {
-    "polished": "^1.0.2"
-  }
+  "name": "light-stylus",
+  "version": "1.0.0",
+  "description": "A simple and useful stylus style library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxichl/light.styl.git"
+  },
+  "keywords": [
+    "stylus",
+    "css"
+  ],
+  "author": "toxichl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toxichl/light.styl/issues"
+  },
+  "homepage": "https://github.com/toxichl/light.styl#readme"
 }
