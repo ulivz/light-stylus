@@ -55,12 +55,12 @@ css|描述
 ### Box Shadow
 css|描述
 ---|---
-`.v-shadow-base`|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
-`.v-shadow-card`|box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
-`.v-shadow-up`|box-shadow: 0 -1px 6px rgba(0, 0, 0, .2)
-`.v-shadow-down`|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
-`.v-shadow-left`|box-shadow: -1px 0 6px rgba(0, 0, 0, .2)
-`.v-shadow-right`|box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
+`.v-shadow-base`|`box-shadow: 0 1px 6px rgba(0, 0, 0, .2)`
+`.v-shadow-card`|`box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)`
+`.v-shadow-up`|`box-shadow: 0 -1px 6px rgba(0, 0, 0, .2)`
+`.v-shadow-down`|`box-shadow: 0 1px 6px rgba(0, 0, 0, .2)`
+`.v-shadow-left`|`box-shadow: -1px 0 6px rgba(0, 0, 0, .2)`
+`.v-shadow-right`|`box-shadow: 1px 0 6px rgba(0, 0, 0, .2)`
 
 ### Color
 css|默认值
