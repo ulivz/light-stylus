@@ -232,10 +232,10 @@
 }
 .rotate-90 {
   transform: rotate(90deg);
-  -ms-transform: rotate(90deg) /* IE 9 */;
-  -moz-transform: rotate(90deg) /* Firefox */;
-  -webkit-transform: rotate(90deg) /* Safari 和 Chrome */;
-  -o-transform: rotate(90deg) /* Opera */;
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 .single-line-center {
   height: 44px;
@@ -253,10 +253,4 @@
   text-align: center;
   word-break: break-all;
   font-size: 20px;
-}
-.transition-5 {
-  transition: all 0.5s;
-  -moz-transition: all 0.5s /* Firefox 4 */;
-  -webkit-transition: all 0.5s /* Safari 和 Chrome */;
-  -o-transition: all 0.5s /* Opera */;
 }
