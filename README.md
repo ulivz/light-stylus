@@ -41,11 +41,44 @@ import 'light-stylus/src/index.styl'
 
 ## 内置样式
 
+内置样式的默认前缀为`v`,可以通过修改以下文件来修改`css`前缀和各种默认值： 
 
-
-## 自定义
- 
-可以通过修改以下文件来修改`css`前缀和各种默认值： 
 ```
 /node_modules/light-stylus/config.styl
 ```
+
+内置样式如下：
+
+### Border Radius
+
+css|描述
+---|---
+v-radius-base|border-radius 6px
+v-radius-small|border-radius 6px
+
+### Box Shadow
+css|描述
+---|---
+v-shadow-base|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
+v-shadow-card|box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
+v-shadow-up|box-shadow: 0 -1px 6px rgba(0, 0, 0, .2)
+v-shadow-down|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
+v-shadow-left|box-shadow: -1px 0 6px rgba(0, 0, 0, .2)
+v-shadow-right|box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
+
+### Color
+css|描述
+---|---
+v-primary| <div style="display: inline-block; color: #000"></div>
+v-info|
+v-success|
+v-warning|
+v-error|
+v-bg-primary|
+v-bg-info|
+v-bg-success|
+v-bg-warning|
+v-bg-error|
+
+## 自定义
+ 
