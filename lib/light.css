@@ -254,13 +254,6 @@
   word-break: break-all;
   font-size: 20px;
 }
-.flex-container {
-  display: flex;
-}
-.flex-fixed-child {
-  flex: 0 0 80px;
-  width: 80px;
-}
 .transition-5 {
   transition: all 0.5s;
   -moz-transition: all 0.5s /* Firefox 4 */;
