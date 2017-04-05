@@ -49,8 +49,8 @@ import 'light-stylus/src/index.styl'
 
 css|描述
 ---|---
-`.v-radius-base`|border-radius 6px
-`.v-radius-small`|border-radius 6px
+`.v-radius-base`|`border-radius 6px`
+`.v-radius-small`|`border-radius 6px`
 
 ### Box Shadow
 css|描述
