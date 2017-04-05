@@ -1,11 +1,13 @@
+@import "../../config.styl"
+
 /* 怪异盒模型与普通盒模型
    ========================================================================== */
-.content-box
+.{$css-prefix}-content-box
   box-sizing content-box
   -moz-box-sizing content-box  /* Firefox */
   -webkit-box-sizing content-box  /* Safari */
 
-.border-box
+.{$css-prefix}-border-box
   box-sizing border-box
   -moz-box-sizing border-box  /* Firefox */
   -webkit-box-sizing border-box  /* Safari */

@@ -9,10 +9,28 @@ $absolute-center()
   right 0
   margin auto
 
+.{$css-prefix}-absolute-center
+  $absolute-center()
+
 /* 单行文字水平居中
  ========================================================================== */
 $single-line-center($height, $fontSize)
   height $height px
   line-height $height px
   font-size $fontSize px
+
+
+/* 多行文字水平居中
+ ========================================================================== */
+$multi-line-center-parent($width, $height)
+    display table
+    height $width px
+    width $height px
+
+$multi-line-center-child()
+    display table-cell
+    vertical-align middle
+    text-align center
+    word-break break-all
+
 

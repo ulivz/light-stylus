@@ -1,30 +1,21 @@
 @import "../src/index.styl"
 
-.clearfix
-  $clearfix()
-
-.clearfix-another
-  $clearfix-another()
-
-.absolute-center
-  $absolute-center()
-
 .rotate-90
   $rotate(90)
 
-.text-overflow-line-1
-  $text-overflow(1)
+.text-overflow-ellipsis-1
+  $text-overflow-ellipsis(1)
 
-.text-overflow-line-2
-  $text-overflow(2)
+.text-overflow-ellipsis-2
+  $text-overflow-ellipsis(2)
 
 .single-line-center
   $single-line-center(44, 18)
 
-.multi-line-container
+.multi-line-center-container
   $multi-line-center-parent(300, 300)
 
-.multi-line-text
+.multi-line-center-text
   $multi-line-center-child()
   font-size 20px
 
@@ -33,6 +24,9 @@
 
 .flex-fixed-child
   $flex-fixed-width(80)
+
+.transition-5
+  $transition(0.5)
 
 
 

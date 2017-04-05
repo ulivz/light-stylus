@@ -1,28 +1,27 @@
 @import "../../config.styl"
 
-
 /* 基本颜色
    ========================================================================== */
-.primary
+.{$css-prefix}-primary
   color $primary-color
-.info
+.{$css-prefix}-info
   color $info-color
-.success
+.{$css-prefix}-success
   color $success-color
-.warning
+.{$css-prefix}-warning
   color $warning-color
-.error
+.{$css-prefix}-error
   color $error-color
 
-.bg-primary
+.{$css-prefix}-bg-primary
   background-color $primary-color
-.bg-info
+.{$css-prefix}-bg-info
   background-color $info-color
-.bg-success
+.{$css-prefix}-bg-success
   background-color $success-color
-.bg-warning
+.{$css-prefix}-bg-warning
   background-color $warning-color
-.bg-error
+.{$css-prefix}-bg-error
   background-color $error-color
 
 
@@ -34,10 +33,10 @@ $gray-color($grey-level) {
 
 $create-gray-color($grey-level) {
   if ($grey-level <= 100) {
-    .gray-{$grey-level} {
+    .{$css-prefix}-gray-{$grey-level} {
       color rgba(0,0,0,$grey-level/100)
     }
-    .bg-gray-{$grey-level} {
+    .{$css-prefix}-bg-gray-{$grey-level} {
       background-color rgba(0,0,0,$grey-level/100)
     }
     $create-gray-color($grey-level + 5)
