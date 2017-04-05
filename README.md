@@ -65,16 +65,16 @@ css|描述
 ### Color
 css|默认值
 ---|---
-`.v-primary`| #3399ff
-`.v-info`| #2db7f5
-`.v-success`| #00cc66
-`.v-warning`| #ff9900
-`.v-error`| #ff3300
-`.v-bg-primary `| #3399ff
-`.v-bg-info`| #2db7f5
-`.v-bg-success `| #00cc66
-`.v-bg-warning `| #ff9900
-`.v-bg-erro`| #ff3300
+`.v-primary`| `#3399ff`
+`.v-info`| `#2db7f5`
+`.v-success`| `#00cc66`
+`.v-warning`| `#ff9900`
+`.v-error`| `#ff3300`
+`.v-bg-primary `| `#3399ff`
+`.v-bg-info`| `#2db7f5`
+`.v-bg-success `| `#00cc66`
+`.v-bg-warning `| `#ff9900`
+`.v-bg-erro`| `#ff3300`
 
 ## Transform
 css|默认值
