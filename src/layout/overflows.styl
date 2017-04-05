@@ -1,3 +1,5 @@
+@import "../../config.styl"
+
 /* 文本溢出显示省略号
    ========================================================================== */
 $text-overflow-ellipsis(lineNumber)
@@ -12,3 +14,8 @@ $text-overflow-ellipsis(lineNumber)
     overflow hidden
   }
 
+.{$css-prefix}-text-ellipsis-1
+  $text-overflow-ellipsis(1)
+
+.{$css-prefix}-text-ellipsis-2
+  $text-overflow-ellipsis(2)

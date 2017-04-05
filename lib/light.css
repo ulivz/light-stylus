@@ -191,6 +191,17 @@
 .v-float-right {
   float: right;
 }
+.v-text-ellipsis-1 {
+  overflow: hidden;
+  text-overflo: ellipsis;
+  white-space: nowrap;
+}
+.v-text-ellipsis-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 .v-content-box {
   box-sizing: content-box;
   -moz-box-sizing: content-box /* Firefox */;
@@ -225,17 +236,6 @@
   -moz-transform: rotate(90deg) /* Firefox */;
   -webkit-transform: rotate(90deg) /* Safari 和 Chrome */;
   -o-transform: rotate(90deg) /* Opera */;
-}
-.text-overflow-ellipsis-1 {
-  overflow: hidden;
-  text-overflo: ellipsis;
-  white-space: nowrap;
-}
-.text-overflow-ellipsis-2 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
 }
 .single-line-center {
   height: 44px;
