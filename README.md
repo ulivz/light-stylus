@@ -1,4 +1,5 @@
 # light-stylus
+A simple and commonly used style(stylus) library
 
 ## Quick Start
 
