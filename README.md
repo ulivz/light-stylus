@@ -69,7 +69,7 @@ v-shadow-right|box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
 ### Color
 css|描述
 ---|---
-v-primary| <div style="display: inline-block; color: #000"></div>
+v-primary| <div style="width:10px; height: 10px; display: inline-block; color: #000"></div>
 v-info|
 v-success|
 v-warning|
