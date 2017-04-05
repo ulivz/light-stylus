@@ -50,7 +50,7 @@ mixin|description
 css|default
 ---|---
 `.v-radius-base`|`border-radius 6px`
-`.v-radius-small`|`border-radius 6px`
+`.v-radius-small`|`border-radius 4px`
 
 ### Box Shadow
 css|default
