@@ -1,20 +1,18 @@
+@import "../../config.styl"
 
-$media-xs($style) {
-  @media (min-width: $screen-xs-min)
-    $style
-}
+@media (min-width: $screen-xs-min)
+  .{$css-prefix}-text-xs
+    font-size $font-size-s
 
-$media-sm($style) {
-  @media (min-width: $screen-sm-min)
-    $style
-}
+@media (min-width: $screen-sm-min)
+  .{$css-prefix}-text-sm
+    font-size $font-size-m
 
-$media-md($style) {
-  @media (min-width: $screen-md-min)
-    $style
-}
+@media (min-width: $screen-md-min)
+  .{$css-prefix}-text-md
+    font-size $font-size-l
 
-$media-lg($style) {
-  @media (min-width: $screen-lg-min)
-    $style
-}
+@media (min-width: $screen-lg-min)
+  .{$css-prefix}-text-lg
+    font-size $font-size-xl
+
