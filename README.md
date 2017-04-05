@@ -62,38 +62,38 @@ css|描述
 `.v-shadow-right`|box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
 
 ### Color
-css|描述
+css|默认值
 ---|---
 `.v-primary`| #3399ff
 `.v-info`| #2db7f5
 `.v-success`| #00cc66
 `.v-warning`| #ff9900
 `.v-error`| #ff3300
-`.v-bg-primary `|
-`.v-bg-info`|
-`.v-bg-success `|
-`.v-bg-warning `|
-`.v-bg-erro`|
+`.v-bg-primary `| #3399ff
+`.v-bg-info`| #2db7f5
+`.v-bg-success `| #00cc66
+`.v-bg-warning `| #ff9900
+`.v-bg-erro`| #ff3300
 
 ## Transform
-css|描述
+css|默认值
 ---|---
 `.v-rotate-reverse`| 旋转180°
 
 ## Box
-css|描述
+css|默认值
 ---|---
 `.v-content-box`| 普通盒模型
 `.v-border-box`| 怪异盒模型
 
 ## Text Overflow
-css|描述
+css|默认值
 ---|---
 `.v-text-ellipsis-1`| 1行文字溢出显示省略号
 `.v-text-ellipsis-2`| 2行文字溢出显示省略号
 
 ## @media
-css|描述
+css|默认值
 ---|---
 `@media (min-width: $screen-xs)`|480px
 `@media (min-width: $screen-sm)`|768px
