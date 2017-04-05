@@ -2,17 +2,15 @@
 
 ## Quick Start
 
-- install:
+- 安装
 ```
 npm i -S light-stylus
 ```
 
-- import in your project:
+- 在你的项目中导入
 ```js
 import 'light-stylus/src/index.styl'
 ```
-
-
 
 ## Mixins
 
@@ -41,8 +39,13 @@ import 'light-stylus/src/index.styl'
 `$scale3d(x, y)`|`3D`缩放
 `$transition(time)`|设置过渡效果时长，默认值为`0.3s`
 
-## Custom
+## 内置样式
+
+
+
+## 自定义
  
+可以通过修改以下文件来修改`css`前缀和各种默认值： 
 ```
 /node_modules/light-stylus/config.styl
 ```
