@@ -6,3 +6,26 @@ $rotate($angle)
   -moz-transform rotate($angle deg) /* Firefox */
   -webkit-transform rotate($angle deg) /* Safari 和 Chrome */
   -o-transform rotate($angle deg) /* Opera */
+
+
+/* 2D偏移
+   ========================================================================== */
+$translate($x, $y)
+  transform translate($x, $y)
+
+
+/* 3D偏移
+   ========================================================================== */
+$translate3d($x, $y, $z)
+  transform translate3d($x, $y, $z)
+
+/* 2D缩放
+   ========================================================================== */
+$scale($x, $y)
+  transform $scale($x, $y)
+
+
+/* 2D缩放
+   ========================================================================== */
+$scale3d($x, $y, $z)
+  transform $scale($x, $y, $z)
