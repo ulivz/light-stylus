@@ -53,32 +53,32 @@ import 'light-stylus/src/index.styl'
 
 css|描述
 ---|---
-v-radius-base|border-radius 6px
-v-radius-small|border-radius 6px
+.`v-radius-base|border-radius 6px
+.`v-radius-small|border-radius 6px
 
 ### Box Shadow
 css|描述
 ---|---
-v-shadow-base|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
-v-shadow-card|box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
-v-shadow-up|box-shadow: 0 -1px 6px rgba(0, 0, 0, .2)
-v-shadow-down|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
-v-shadow-left|box-shadow: -1px 0 6px rgba(0, 0, 0, .2)
-v-shadow-right|box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
+`.v-shadow-base`|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
+`.v-shadow-card`|box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
+`.v-shadow-up`|box-shadow: 0 -1px 6px rgba(0, 0, 0, .2)
+`.v-shadow-down`|box-shadow: 0 1px 6px rgba(0, 0, 0, .2)
+`.v-shadow-left`|box-shadow: -1px 0 6px rgba(0, 0, 0, .2)
+`.v-shadow-right`|box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
 
 ### Color
 css|描述
 ---|---
-v-primary| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
-v-info| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
-v-success| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
-v-warning| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
-v-error| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
-v-bg-primary|
-v-bg-info|
-v-bg-success|
-v-bg-warning|
-v-bg-error|
+`v-primary`| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
+`v-info`| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
+`v-success`| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
+`v-warning`| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
+`v-error`| <div style="width:10px; height: 10px; display:inline-block; background: #000"></div>
+`v-bg-primary `|
+`v-bg-info`|
+`v-bg-success `|
+`v-bg-warning `|
+`v-bg-erro`|
 
 ## 自定义
  
