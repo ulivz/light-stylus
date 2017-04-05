@@ -1,3 +1,5 @@
+@import "../../config.styl"
+
 /* 2D旋转
    ========================================================================== */
 $rotate($angle)
@@ -7,6 +9,8 @@ $rotate($angle)
   -webkit-transform rotate($angle deg)
   -o-transform rotate($angle deg)
 
+.{$css-prefix}-rotate-reverse
+  $rotate(180)
 
 /* 2D偏移
    ========================================================================== */

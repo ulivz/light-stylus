@@ -154,6 +154,31 @@
 .v-bg-gray-100 {
   background-color: #000;
 }
+.v-rotate-reverse {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.v-shadow-base {
+  box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+.v-shadow-card {
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+}
+.v-shadow-up {
+  box-shadow: 0 -1px 6px rgba(0,0,0,0.2);
+}
+.v-shadow-down {
+  box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+.v-shadow-left {
+  box-shadow: -1px 0 6px rgba(0,0,0,0.2);
+}
+.v-shadow-right {
+  box-shadow: 1px 0 6px rgba(0,0,0,0.2);
+}
 .v-absolute-center {
   overflow: hidden;
   position: absolute;
