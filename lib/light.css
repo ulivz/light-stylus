@@ -179,6 +179,9 @@
 .v-shadow-right {
   box-shadow: 1px 0 6px rgba(0,0,0,0.2);
 }
+.v-radius-base {
+  border-radius: 6px;
+}
 .v-absolute-center {
   overflow: hidden;
   position: absolute;
