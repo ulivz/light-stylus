@@ -1,65 +1,158 @@
+.primary {
+  color: #39f;
+}
+.info {
+  color: #2db7f5;
+}
+.success {
+  color: #0c6;
+}
+.warning {
+  color: #f90;
+}
+.error {
+  color: #f30;
+}
+.bg-primary {
+  background-color: #39f;
+}
+.bg-info {
+  background-color: #2db7f5;
+}
+.bg-success {
+  background-color: #0c6;
+}
+.bg-warning {
+  background-color: #f90;
+}
+.bg-error {
+  background-color: #f30;
+}
 .gray-0 {
   color: rgba(0,0,0,0);
+}
+.bg-gray-0 {
+  background-color: rgba(0,0,0,0);
 }
 .gray-5 {
   color: rgba(0,0,0,0.05);
 }
+.bg-gray-5 {
+  background-color: rgba(0,0,0,0.05);
+}
 .gray-10 {
   color: rgba(0,0,0,0.1);
+}
+.bg-gray-10 {
+  background-color: rgba(0,0,0,0.1);
 }
 .gray-15 {
   color: rgba(0,0,0,0.15);
 }
+.bg-gray-15 {
+  background-color: rgba(0,0,0,0.15);
+}
 .gray-20 {
   color: rgba(0,0,0,0.2);
+}
+.bg-gray-20 {
+  background-color: rgba(0,0,0,0.2);
 }
 .gray-25 {
   color: rgba(0,0,0,0.25);
 }
+.bg-gray-25 {
+  background-color: rgba(0,0,0,0.25);
+}
 .gray-30 {
   color: rgba(0,0,0,0.3);
+}
+.bg-gray-30 {
+  background-color: rgba(0,0,0,0.3);
 }
 .gray-35 {
   color: rgba(0,0,0,0.35);
 }
+.bg-gray-35 {
+  background-color: rgba(0,0,0,0.35);
+}
 .gray-40 {
   color: rgba(0,0,0,0.4);
+}
+.bg-gray-40 {
+  background-color: rgba(0,0,0,0.4);
 }
 .gray-45 {
   color: rgba(0,0,0,0.45);
 }
+.bg-gray-45 {
+  background-color: rgba(0,0,0,0.45);
+}
 .gray-50 {
   color: rgba(0,0,0,0.5);
+}
+.bg-gray-50 {
+  background-color: rgba(0,0,0,0.5);
 }
 .gray-55 {
   color: rgba(0,0,0,0.55);
 }
+.bg-gray-55 {
+  background-color: rgba(0,0,0,0.55);
+}
 .gray-60 {
   color: rgba(0,0,0,0.6);
+}
+.bg-gray-60 {
+  background-color: rgba(0,0,0,0.6);
 }
 .gray-65 {
   color: rgba(0,0,0,0.65);
 }
+.bg-gray-65 {
+  background-color: rgba(0,0,0,0.65);
+}
 .gray-70 {
   color: rgba(0,0,0,0.7);
+}
+.bg-gray-70 {
+  background-color: rgba(0,0,0,0.7);
 }
 .gray-75 {
   color: rgba(0,0,0,0.75);
 }
+.bg-gray-75 {
+  background-color: rgba(0,0,0,0.75);
+}
 .gray-80 {
   color: rgba(0,0,0,0.8);
+}
+.bg-gray-80 {
+  background-color: rgba(0,0,0,0.8);
 }
 .gray-85 {
   color: rgba(0,0,0,0.85);
 }
+.bg-gray-85 {
+  background-color: rgba(0,0,0,0.85);
+}
 .gray-90 {
   color: rgba(0,0,0,0.9);
+}
+.bg-gray-90 {
+  background-color: rgba(0,0,0,0.9);
 }
 .gray-95 {
   color: rgba(0,0,0,0.95);
 }
+.bg-gray-95 {
+  background-color: rgba(0,0,0,0.95);
+}
 .gray-100 {
   color: #000;
+}
+.bg-gray-100 {
+  background-color: #000;
 }
 .float-left {
   float: left;
@@ -145,6 +238,6 @@
   display: flex;
 }
 .flex-fixed-child {
-  flex: 0 0 80 px;
+  flex: 0 0 80px;
   width: 80px;
 }

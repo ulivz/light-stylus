@@ -1,3 +1,31 @@
+@import "../../config.styl"
+
+
+/* 基本颜色
+   ========================================================================== */
+.primary
+  color $primary-color
+.info
+  color $info-color
+.success
+  color $success-color
+.warning
+  color $warning-color
+.error
+  color $error-color
+
+.bg-primary
+  background-color $primary-color
+.bg-info
+  background-color $info-color
+.bg-success
+  background-color $success-color
+.bg-warning
+  background-color $warning-color
+.bg-error
+  background-color $error-color
+
+
 /* 灰度
    ========================================================================== */
 $gray-color($grey-level) {
@@ -9,8 +37,12 @@ $create-gray-color($grey-level) {
     .gray-{$grey-level} {
       color rgba(0,0,0,$grey-level/100)
     }
+    .bg-gray-{$grey-level} {
+      background-color rgba(0,0,0,$grey-level/100)
+    }
     $create-gray-color($grey-level + 5)
   }
 }
 
 $create-gray-color(0)
+
