@@ -1,4 +1,7 @@
 # light-stylus
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/light-stylus.svg)](https://greenkeeper.io/)
+
 A simple and commonly used style(stylus) library
 
 ## Quick Start
